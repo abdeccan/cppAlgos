@@ -1,6 +1,8 @@
 #pragma once
 #include "pch.h"
 
+#define _RESHAPEMATRIX_TEST_
+
 // https://leetcode.com/problems/reshape-the-matrix/
 
 class ReshapeMatrix {
