@@ -5,6 +5,7 @@
 #include <iostream>
 //#include "longestpalindrome.h"
 //#include "reshapeMatrix.h"
+//#include "zigzag.h"
 
 int main()
 {
@@ -45,4 +46,17 @@ int main()
 	vector<vector<int>> res = rs.matrixReshape(nums, r, c);
 #endif	//_RESHAPEMATRIX_TEST_
 
+#ifdef _ZIGZAGTEST_
+	Zigzag z;
+	string inStr("HelloWorld");
+	string outStr = z.convert(inStr, 3);
+	cout << "Outstr " << outStr.c_str() << endl;
+
+	inStr = "PAYPALISHIRING";
+	cout << "Outstr " << z.convert(inStr, 3).c_str() << endl;
+	cout << "Outstr " << z.convert(inStr, 4).c_str() << endl;
+
+	inStr = "HelloWorlds";
+	cout << "Outstr " << z.convert(inStr, 2).c_str() << endl;
+#endif//_ZIGZAGTEST_
 }
