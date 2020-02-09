@@ -7,3 +7,6 @@
 *.opendb
 /src/.vs/cppAlgps/v15
 *.user
+/.vs/cppAlgos/v15/ipch
+/src/.vs/cpp01/v15/ipch
+/src/Debug
