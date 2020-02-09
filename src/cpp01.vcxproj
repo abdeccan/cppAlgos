@@ -156,6 +156,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="reshapeMatrix.h" />
     <ClInclude Include="reverseint.h" />
+    <ClInclude Include="str_to_num.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

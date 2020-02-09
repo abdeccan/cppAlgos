@@ -14,7 +14,9 @@
 #include "string.h"
 #include <vector>
 #include <map>
+#include <list>
 #include <algorithm>
+#include <iostream>
 using namespace std;
 #include <Windows.h>
 #endif //PCH_H
