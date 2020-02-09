@@ -6,6 +6,7 @@
 //#include "longestpalindrome.h"
 //#include "reshapeMatrix.h"
 //#include "zigzag.h"
+//#include "reverseint.h"
 
 int main()
 {
@@ -59,4 +60,9 @@ int main()
 	inStr = "HelloWorlds";
 	cout << "Outstr " << z.convert(inStr, 2).c_str() << endl;
 #endif//_ZIGZAGTEST_
+
+#ifdef _REVERSEINT_
+	reverseint ri;
+	int rev= ri.reverse(1563847412);
+#endif//_REVERSEINT_
 }

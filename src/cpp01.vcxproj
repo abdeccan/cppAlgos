@@ -155,6 +155,7 @@
     <ClInclude Include="longestpalindrome.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="reshapeMatrix.h" />
+    <ClInclude Include="reverseint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
