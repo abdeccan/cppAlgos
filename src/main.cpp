@@ -7,6 +7,7 @@
 //#include "reshapeMatrix.h"
 //#include "zigzag.h"
 //#include "reverseint.h"
+//#include "str_to_num.h"
 
 int main()
 {
@@ -65,4 +66,20 @@ int main()
 	reverseint ri;
 	int rev= ri.reverse(1563847412);
 #endif//_REVERSEINT_
+
+#ifdef STR_TO_NUM
+	str_to_num s2n;
+	int n = s2n.myAtoi("20000000000000000000");
+	n = s2n.myAtoi("  0000000000012345678");
+	n = s2n.myAtoi("-42");
+	n = s2n.myAtoi("-2147483648");
+	n = s2n.myAtoi("2147483648");
+	n = s2n.myAtoi("21474836487");
+	n = s2n.myAtoi("-2147483650");
+	n = s2n.myAtoi("");
+	n = s2n.myAtoi("   ");
+	n = s2n.myAtoi("abc");
+	n = s2n.myAtoi("  123words");
+	n = s2n.myAtoi("  w1");
+#endif//STR_TO_NUM
 }
