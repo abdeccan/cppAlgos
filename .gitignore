@@ -10,3 +10,6 @@
 /.vs/cppAlgos/v15/ipch
 /src/.vs/cpp01/v15/ipch
 /src/Debug
+*.sqlite
+/src/Release/cpp01.log
+/.vs/ProjectSettings.json

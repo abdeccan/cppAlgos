@@ -9,6 +9,8 @@
 //#include "reverseint.h"
 //#include "str_to_num.h"
 
+#include "regex.h"
+
 int main()
 {
 
@@ -82,4 +84,15 @@ int main()
 	n = s2n.myAtoi("  123words");
 	n = s2n.myAtoi("  w1");
 #endif//STR_TO_NUM
+
+#ifdef REGEX
+	Regex myRegex;
+	bool isMatch = myRegex.isMatch("mississippi", "mis*is*p*.");
+	isMatch = myRegex.isMatch("aa", "a*");
+	isMatch = myRegex.isMatch("ab", "a*");
+	isMatch = myRegex.isMatch("aaa", "ab*ac*a");
+	isMatch = myRegex.isMatch("aa", ".");
+	isMatch = myRegex.isMatch("bbbba", ".*a*a");
+	isMatch = myRegex.isMatch("a", ".*..a*");
+#endif//REGEX
 }
