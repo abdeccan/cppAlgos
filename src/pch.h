@@ -17,6 +17,9 @@
 #include <list>
 #include <algorithm>
 #include <iostream>
+#include <queue>
+#include <deque>
+#include <set>
 using namespace std;
 #include <Windows.h>
 #endif //PCH_H

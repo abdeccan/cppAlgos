@@ -152,13 +152,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="container_with_most_water.h" />
+    <ClInclude Include="Int_To_Roman.h" />
     <ClInclude Include="longestpalindrome.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="regex.h" />
     <ClInclude Include="reshapeMatrix.h" />
     <ClInclude Include="reverseint.h" />
     <ClInclude Include="str_to_num.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="3_num_sum.h" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
